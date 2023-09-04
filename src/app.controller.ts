@@ -9,8 +9,8 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Post()
   
+  @Post()
   validateCompanyData(@Body() body): Object {
     return this.appService.validateCompanyData(body)
   }
