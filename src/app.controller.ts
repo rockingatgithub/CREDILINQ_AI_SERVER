@@ -5,11 +5,7 @@ import { AppService } from './app.service';
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get()
-  getHello(): string {
-    return this.appService.getHello();
-  }
-  
+  // The post controller to return the body and verified status
   @Post()
   validateCompanyData(@Body() body): Object {
     return this.appService.validateCompanyData(body)
