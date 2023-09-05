@@ -2,12 +2,12 @@
 
 The project is to validate data provided for several fields based on company, application and documents.
 
-# Tech stack
+### Tech stack
 
 - NestJS
 - NodeJS
 
-# Steps to setup and run the project locally
+### Steps to setup and run the project locally
 
 - Clone the backend repository from [https://github.com/rockingatgithub/CREDILINQ_AI_SERVER](https://github.com/rockingatgithub/CREDILINQ_AI_SERVER)
 
@@ -15,13 +15,13 @@ The project is to validate data provided for several fields based on company, ap
 
 - Note:- The project can start without backend too. However, sending API calls wouldn't work without a backend.
 
-## Installation
+### Installation
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+### Running the app
 
 ```bash
 # development
@@ -34,7 +34,7 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+### Test
 
 ```bash
 # unit tests
@@ -47,7 +47,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Stay in touch
+### Stay in touch
 
 - Author - [Sudhendra Kumar Singh](https://github.com/rockingatgithub)
 - LinkedIn - [https://www.linkedin.com/in/sudhendra-singh-168831130/](https://www.linkedin.com/in/sudhendra-singh-168831130/)
